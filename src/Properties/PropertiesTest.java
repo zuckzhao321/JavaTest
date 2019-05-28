@@ -49,5 +49,9 @@ class ResourceTestFrame extends JFrame
             textArea.append(in.nextLine() + "\n");
       }
       add(textArea);
+
+      /**
+       * 增加一个git注释，用于检测新增改动
+       */
    }
 }
